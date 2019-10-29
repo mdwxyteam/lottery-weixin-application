@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="sm-width-100-per  sm-margin-bottom-20 sm-layout-center-vertical"
-         style="height: 400rpx;">
-      <div class="sm-width-90-per sm-height-90-per card"
+         style="height: 460rpx;background-color: white;">
+      <div class="sm-width-100-per sm-height-96-per card"
            style="position: relative;">
         <image mode=""
                :src="imgtest"
@@ -16,8 +16,8 @@
     </div>
 
     <div class="sm-width-100-per  sm-margin-bottom-20 sm-layout-center-vertical"
-         style="height: 400rpx;">
-      <div class="sm-width-90-per sm-height-90-per card"
+         style="height: 460rpx;background-color: white;">
+      <div class="sm-width-100-per sm-height-96-per card"
            style="position: relative;">
         <image mode=""
                :src="imgtest"
@@ -31,8 +31,8 @@
     </div>
 
     <div class="sm-width-100-per  sm-margin-bottom-20 sm-layout-center-vertical"
-         style="height: 400rpx;">
-      <div class="sm-width-90-per sm-height-90-per card"
+         style="height: 460rpx;background-color: white;">
+      <div class="sm-width-100-per sm-height-96-per card"
            style="position: relative;">
         <image mode=""
                :src="imgtest"
@@ -46,8 +46,8 @@
     </div>
 
     <div class="sm-width-100-per  sm-margin-bottom-20 sm-layout-center-vertical"
-         style="height: 400rpx;">
-      <div class="sm-width-90-per sm-height-90-per card"
+         style="height: 460rpx;background-color: white;">
+      <div class="sm-width-100-per sm-height-96-per card"
            style="position: relative;">
         <image mode=""
                :src="imgtest"
@@ -61,8 +61,8 @@
     </div>
 
     <div class="sm-width-100-per  sm-margin-bottom-20 sm-layout-center-vertical"
-         style="height: 400rpx;">
-      <div class="sm-width-90-per sm-height-90-per card"
+         style="height: 460rpx;background-color: white;">
+      <div class="sm-width-100-per sm-height-96-per card"
            style="position: relative;">
         <image mode=""
                :src="imgtest"
@@ -76,8 +76,8 @@
     </div>
 
     <div class="sm-width-100-per  sm-margin-bottom-20 sm-layout-center-vertical"
-         style="height: 400rpx;">
-      <div class="sm-width-90-per sm-height-90-per card"
+         style="height: 460rpx;background-color: white;">
+      <div class="sm-width-100-per sm-height-96-per card"
            style="position: relative;">
         <image mode=""
                :src="imgtest"
@@ -94,7 +94,7 @@
 <style  lang="less">
 .card {
   font-weight: 400;
-  border: 0;
+  // border: 0;
   // box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   // background-clip: border-box;
   // border: 1px solid rgba(0, 0, 0, 0.125);
@@ -102,7 +102,7 @@
   background-color: white;
 }
 .sm-margin-bottom-20 {
-  margin-bottom: 20rpx;
+  // margin-bottom: 20rpx;
 }
 .image-size {
   width: 100%;
