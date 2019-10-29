@@ -1,5 +1,10 @@
 {
-  "pages": ["pages/index/main", "pages/logs/main", "pages/counter/main"],
+  "pages": [
+    "pages/sponsor/main",
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main"
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FF4040",
@@ -20,6 +25,12 @@
         "selectedIconPath": "static/tabs/home-active.png"
       },
       {
+        "text": "赞助商",
+        "pagePath": "pages/sponsor/main",
+        "iconPath": "static/tabs/sponsor.png",
+        "selectedIconPath": "static/tabs/sponsor-active.png"
+      },
+      {
         "text": "订单",
         "pagePath": "pages/logs/main",
         "iconPath": "static/tabs/orders.png",
@@ -33,6 +44,12 @@
         "pagePath": "pages/index/main",
         "icon": "static/tabs/home.png",
         "activeIcon": "static/tabs/home-active.png"
+      },
+      {
+        "name": "赞助商",
+        "pagePath": "pages/sponsor/main",
+        "icon": "static/tabs/sponsor.png",
+        "activeIcon": "static/tabs/sponsor-active.png"
       },
       {
         "name": "订单",
