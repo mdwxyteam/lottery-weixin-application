@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/indexdetail/main",
     "pages/sponsor/main",
     "pages/index/main",
     "pages/logs/main",
@@ -20,7 +21,7 @@
     "list": [
       {
         "text": "首页",
-        "pagePath": "pages/index/main",
+        "pagePath": "pages/indexdetail/main",
         "iconPath": "static/tabs/home.png",
         "selectedIconPath": "static/tabs/home-active.png"
       },
